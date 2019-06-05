@@ -93,3 +93,61 @@ input, select {
     vertical-align:middle;
 }
 
+
+
+/* __________________________________________________________ */
+
+
+*{
+  box-sizing: border-box;
+}
+body{
+  background: radial-gradient(#000, #111), #000;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+canvas{
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+}
+
+
+h1{
+    font-size: 5vw;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+}
+#title{
+    position: absolute;
+    margin-top: 45vh;
+    margin-bottom: 45vh;
+    margin-left: 3vw;
+}
+
+a{
+    position: absolute;
+    text-align: center;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+p{
+    
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.link a:link{
+    color: white;
+}
+.link a:visited{
+    color: white;
+}
+.link a:hover{
+    color: rgb(82, 255, 59);
+}

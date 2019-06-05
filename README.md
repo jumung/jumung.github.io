@@ -1,6 +1,6 @@
 # Title
 
-기말 프로젝트.
+: NCTroduce
 
 ## Sub-title
 
