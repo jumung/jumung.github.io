@@ -113,41 +113,36 @@ canvas{
 }
 
 
-h1{
-    font-size: 5vw;
-    font-weight: bolder;
-    text-align: center;
-    color: white;
-}
+
 #title{
     position: absolute;
     margin-top: 45vh;
     margin-bottom: 45vh;
     margin-left: 3vw;
-}
 
-a{
-    position: absolute;
+    font-size: 5vw;
+    font-weight: bolder;
     text-align: center;
     color: white;
-    margin-left: auto;
-    margin-right: auto;
 }
-
-
-
-p{
     
+/* #enter{
+    position: absolute;
+    margin-top: 55vh;
+    margin-bottom: 45vh;
+    margin-left: 3.5vw;
+} */
+
+
+a:link{
     color: white;
-    font-size: 30px;
-    font-weight: bolder;
+    text-decoration: none;
 }
-.link a:link{
+a:visited{
     color: white;
+    text-decoration: none;
 }
-.link a:visited{
-    color: white;
-}
-.link a:hover{
+a:hover{
     color: rgb(82, 255, 59);
+    /* text-decoration:  */
 }
