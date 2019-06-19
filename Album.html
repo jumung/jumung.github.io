@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="author" href="//plus.google.com/u/0/+AngelaHoldenDesign/posts">
+    <meta name="description" content="Learn to build a simple, responsive grid for displaying and playing videos using CSS and jQuery.">
+    <title>Album</title>
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/Index.css">
+    <link rel="stylesheet" href="./css/Album.css">
+    
+    <audio id='audio_play' src='./sound/7th_sense.wav'></audio> 
+    <script type="text/javascript"> 
+    function play() { 
+        var audio = document.getElementById('audio_play'); 
+        if (audio.paused) { 
+            audio.play(); 
+        }else{ 
+            audio.pause(); 
+            audio.currentTime = 0 
+        } 
+    } 
+    </script>
+   
+    <!--Sound Script-->
+<!--
+    <script>
+        function play1(){
+            var audio = document.getElementById("audio1");
+            audio.play();
+        }
+        function play2(){
+            var audio = document.getElementById("audio2");
+            audio.play();
+        }
+    </script>
+-->
+
+    
+    <style type="text/css">
+	.parallax { 
+    background-image: url("./nct_img/127_main_crop.jpg"); 
+    min-height: 100vh;
+    background-attachment: fixed; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    z-index: 6;
+    }
+    .parallax-gradient { 
+    background-image: url("./images/gra1.jpg"); 
+    min-height: 60vh;
+    background-attachment: fixed; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    z-index: 6;
+    } 
+    </style>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900|Roboto:100,300,400,500,700,900&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <div class="navigation">
+     <div class="logo"><a href="./Main.html">NCTroduce</a></div>
+      <div class="navigation-left">
+        <a href="./Group.html">Group</a>
+        <a href="./Member.html">Member</a>
+        <a href="./Commentary.html">Commentary</a>
+        <a href="./MV.html">M/V</a>
+        <a href="./Album.html">Album</a>
+      </div>
+    </div>
+
+
+    <div class="parallax">
+<!--
+        <div class="content">
+            <div id="mentary"><h1>SUPERHUMAN</h1></div>
+        </div>
+-->
+    </div> 
+    
+    
+    <div class="parallax-gradient"></div> 
+
+
+    <div class="empty">
+        OFFICIAL NCT ALBUM
+    </div>
+    
+    
+    
+    <div class="layout">
+       
+       
+       <div class="album">
+            <div class="one-album">
+                <div class="title" id="dream">
+                    NCT U
+                </div>
+                <div class="album-ul">
+                    <ul>
+                        <li>
+                          <div class="member_img">
+                              <img src="./nct_img/u_album_1.jpg">
+                            <div class="member_hover">
+                                <div id="audio_play" onclick="play()" class="member_hover_text">일곱 번째 감각<br>(The 7th Sense)</div>
+<!--
+                               <div value="PLAY" onclick="play1()" class="member_hover_text">일곱 번째 감각<br>(The 7th Sense)</div>
+                               <audio id="audio1" scr="./sound/7th_sense.wav"></audio>
+-->
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="member_img">
+                            <img src="./nct_img/u_album_2.jpg">
+                            <div class="member_hover">
+                                <div value="PLAY" onclick="play2()" class="member_hover_text">WITHOUT YOU</div>
+                                <audio id="audio2" scr="./sound/7th_sense.wav"></audio>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="member_img">
+                            <img src="./nct_img/u_album_3.jpg">
+                            <div class="member_hover">
+                                <div class="member_hover_text">텐데... (Timeless)</div>
+                            </div>
+                          </div>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+        
+        
+        <div class="album" >
+            <div class="one-album">
+                <div class="title" id="one">
+                    NCT 127
+                </div>
+                <div class="album-ul">
+                    <ul>
+                        <li>
+                          <div class="member_img">
+                            <img src="./nct_img/127_album_1.jpg">
+                            <div class="member_hover">
+                              <div class="member_hover_text">NCT #127</div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="member_img">
+                            <img src="./nct_img/127_album_2.jpg">
+                            <div class="member_hover">
+                              <div class="member_hover_text">Taste The Feeling</div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="member_img">
+                            <img src="./nct_img/127_album_3.jpg">
+                            <div class="member_hover">
+                              <div class="member_hover_text">NCT #127 LIMITLESS</div>
+                            </div>
+                          </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="album-ul">
+                    <ul>
+                        <li>
+                          <div class="member_img">
+                            <img src="./nct_img/127_album_4.jpg">
+                            <div class="member_hover">
+                              <div class="member_hover_text">NCT #127 CHERRY BOMB</div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="member_img">
+                            <img src="./nct_img/127_album_5.jpg">
+                            <div class="member_hover">
+                              <div class="member_hover_text">Chain</div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="member_img">
+                            <img src="./nct_img/127_album_7.jpg">
+                            <div class="member_hover">
+                              <div class="member_hover_text">NCT #127 Regular-Irregula</div>
+                            </div>
+                          </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="album-ul">
+                    <ul>
+                        <li>
+                          <div class="member_img">
+                            <img src="./nct_img/127_album_8.jpg">
+                            <div class="member_hover">
+                              <div class="member_hover_text">NCT #127 Regulate</div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="member_img">
+                            <img src="./nct_img/127_album_9.jpg">
+                            <div class="member_hover">
+                              <div class="member_hover_text">Awaken</div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="member_img">
+                            <img src="./nct_img/127_album_11.jpg">
+                            <div class="member_hover">
+                              <div class="member_hover_text">NCT #127<br>WE ARE SUPERHUMAN</div>
+                            </div>
+                          </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="album">
+            <div class="one-album">
+                <div class="title" id="dream">
+                    NCT dream
+                </div>
+                <div class="album-ul">
+                    <ul>
+                        <li>
+                          <div class="member_img">
+                            <img src="./nct_img/dream_album_1.jpg">
+                            <div class="member_hover">
+                              <div class="member_hover_text">Chewing Gum</div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="member_img">
+                            <img src="./nct_img/dream_album_2.jpg">
+                            <div class="member_hover">
+                                <div class="member_hover_text">THE FIRST</div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="member_img">
+                            <img src="./nct_img/dream_album_3.jpg">
+                            <div class="member_hover">
+                                <div class="member_hover_text">We Young</div>
+                            </div>
+                          </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="album-ul">
+                    <ul>
+                        <li>
+                          <div class="member_img">
+                            <img src="./nct_img/dream_album_4.jpg">
+                            <div class="member_hover">
+                              <div class="member_hover_text">JOY</div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="member_img">
+                            <img src="./nct_img/dream_album_5.jpg">
+                            <div class="member_hover">
+                                <div class="member_hover_text">We Go Up</div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="member_img">
+                            <img src="./nct_img/dream_album_6.jpg">
+                            <div class="member_hover">
+                              <div class="member_hover_text">사랑한단 뜻이야<br>(Candle Light)</div>
+                            </div>
+                          </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="album">
+            <div class="one-album">
+                <div class="title" id="wayv">
+                    NCT 2018
+                </div>
+                <div class="album-ul">
+                    <ul>
+                        <li>
+                          <div class="member_img">
+                            <img src="./nct_img/2018_album_1.jpg">
+                            <div class="member_hover">
+                              <div class="member_hover_text">NCT 2018<br>EMPATHY</div>
+                            </div>
+                          </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        <div class="album">
+            <div class="one-album">
+                <div class="title" id="wayv">
+                    Way V
+                </div>
+                <div class="album-ul">
+                    <ul>
+                        <li>
+                          <div class="member_img">
+                            <img src="./nct_img/wayv_album_1.jpg">
+                            <div class="member_hover">
+                              <div class="member_hover_text">The Vision</div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="member_img">
+                            <img src="./nct_img/wayv_album_2.jpg">
+                            <div class="member_hover">
+                              <div class="member_hover_text">Take Off</div>
+                            </div>
+                          </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+      </div>
+    
+
+    
+  </body>
+
+</html>

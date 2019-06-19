@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="author" href="//plus.google.com/u/0/+AngelaHoldenDesign/posts">
+    <meta name="description" content="Learn to build a simple, responsive grid for displaying and playing videos using CSS and jQuery.">
+    <title>Group</title>
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/Navi_white.css">
+    <link rel="stylesheet" href="./css/Group.css">
+    
+    <style type="text/css">
+	.parallax { 
+    background-image: url("./images/suman1.jpg"); 
+    min-height: 100vh;
+    background-attachment: fixed; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    z-index: 6;
+    }
+    .parallax-gradient { 
+    background-image: url("./images/gra4.png"); 
+    min-height: 60vh;
+    background-attachment: fixed; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    z-index: 6;
+    } 
+    </style>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900|Roboto:100,300,400,500,700,900&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <div class="navigation">
+     <div class="logo"><a href="./Main.html">NCTroduce</a></div>
+      <div class="navigation-left">
+        <a href="./Group.html">Group</a>
+        <a href="./Member.html">Member</a>
+        <a href="./Commentary.html">Commentary</a>
+        <a href="./MV.html">M/V</a>
+        <a href="./Album.html">Album</a>
+      </div>
+    </div>
+
+
+    <div class="parallax">
+        <div class="content">
+<!--            <h2>"이수만의 꿈"</h2>-->
+            <h1>NEO<br>CULTURE<br>TECHNOLOGY</h1>
+        </div>
+    </div>
+    
+    
+    <div class="layer-container">
+        <div class="layer layer0" id="margin">
+            <iframe width="80%" height="90%" src="https://www.youtube.com/embed/Ky5NvWsXnn8?t=963">
+            </iframe>
+        </div>
+    </div>
+    
+    
+<!--    <div class="parallax-gradient"></div> -->
+    
+    <div class="layer-container">
+        <div class="layer layer1">
+            <div><img src="./images/element1.png"></div>
+        </div>
+    </div>
+    
+    
+    <div class="layer-container">
+        <div class="layer layer2">
+            <div><img src="./images/element3_2.png"></div>
+            <p id="left">새로운 멤버의<br>영입이 자유롭고,</p>
+	        <p id="right">멤버 수에 제한이 없다.</p>
+        </div>
+    </div>
+    
+    <div class="layer-container">
+        <div class="layer layer3">
+            <div><img src="./images/map_white.png"></div>s
+            <p id="kpop">K-POP의 발원지인<br>서울을 중심으로</p>
+	        <p id="base">전 세계 각국의 도시를 베이스로 둔 팀이<br>순차적으로 공개되고<br>세계를 무대로 활동하며<br> <span style="font-weight: bold; font-size: 1.6vw;">진정한 한류 현지화</span>를 꿈꾼다.</p>
+        </div>
+    </div>
+   
+   
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script src="./js/Group.js" charset="utf-8"></script>
+  </body>
+
+</html>

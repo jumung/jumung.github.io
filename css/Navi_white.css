@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Navigation */
+.navigation {
+  font-family: 'Montserrat', sans-serif;
+  position: fixed;
+  width: 100%;
+  height: 15%;
+  padding-left:7%;
+  padding-right:7%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10;
+}
+
+.navigation .logo{
+    font-size: 1.2vw;
+    height: 15%;
+    font-weight: 800;
+    line-height: 10%;
+    color: #fff;
+}
+.navigation .logo a,
+.navigation .logo a:hover,
+.navigation .logo a:focus,
+.navigation .logo a:visited{
+    color: #fff;
+    text-decoration: none;
+}
+
+.navigation-left a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1vw;
+  font-weight: bold;
+  width: 8vw;
+  height: 15%;
+  display: inline-block;
+  text-align: center;
+  line-height: 15%;
+  transition: all .2s;
+}
+
+.navigation-left a:hover,
+.navigation-left a:focus {
+/*    마우스 호버시 색상*/
+/*  border-color: rgb(234, 46, 73); */
+  background-color: rgba(44, 45, 47, 0);
+}
+
+.navigation-center {
+  margin-right: 85px;
+}
+
+.navigation-right {
+  display: flex;
+  align-items: center;
+}
+
+/* Slider wrapper*/
+.css-slider-wrapper {
+  display: block;
+  background: #FFF;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+

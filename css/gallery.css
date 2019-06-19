@@ -99,7 +99,7 @@ input, select {
 
 
 html{
-    background-color: black;
+/*    background-color: black;*/
 }
 
 .gallery {
@@ -107,22 +107,43 @@ html{
     /* margin: 10px 50px; */
     
 }
-
+#back { 
+    background-image: url("./images/back.png"); 
+    min-height: 100vh;
+    background-attachment: fixed; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    z-index: 6;
+    
+    margin-top: 5%;
+    margin-bottom: 5%;
+    }
+/*
+#back{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
 #back img{
     position: relative;
     top: 0;
     left: 0;
+    width: 95%;
+    height: 95%;
 }
+*/
 
 @media screen and (max-width: 100vw) {
     #back{
-        width: 100%;
-        height: 100%;
+        width: 100vw;
+        height: 100vh;
     }
 }
 
 .gallery img{
-    width: 6vw;
+    width: 4vw;
     transition: 1s;
 }
 .gallery img:hover{
@@ -132,91 +153,107 @@ html{
 
 .gallery #taeil{
     position: absolute;
-    top: 40%;
+    top: 241%;
     left: 46%;
 }
 .gallery :nth-child(2){ /*Johnny*/
     position: absolute;
-    top: 17%;
-    left: 38%;
+    top: 228%;
+    left: 37%;
 }
 .gallery :nth-child(3){ /*Taeyong*/
     position: absolute;
-    top: 30%;
-    left: 55%;
+    top: 228%;
+    left: 31%;
 }
 .gallery :nth-child(4){ /*Yuta*/
     position: absolute;
-    top: 11%;
-    left: 51%;
+    top: 213.2%;
+    left: 45%;
 } 
 .gallery :nth-child(5){ /*Kun*/
     position: absolute;
-    top: 36%;
-    left: 71%;
+    top: 205%;
+    left: 31.7%;
 } 
 .gallery :nth-child(6){ /*Doyoung*/
     position: absolute;
-    top: 47%;
-    left: 56%;
+    top: 239.5%;
+    left: 33%;
 } 
 .gallery :nth-child(7){ /*Ten*/
     position: absolute;
-    top: 50%;
-    left: 73%;
+    top: 201.5%;
+    left: 38%;
 } 
 .gallery :nth-child(8){ /*Jaehyun*/
     position: absolute;
-    top: 53.8%;
+    top: 222%;
     left: 43%;
 } 
 .gallery :nth-child(9){ /*Winwin*/
     position: absolute;
-    top: 40%;
-    left: 64%;
+    top: 214%;
+    left: 35.5%;
 } 
 .gallery :nth-child(10){ /*Jungwoo*/
     position: absolute;
-    top: 62%;
-    left: 54.5%;
+    top: 231%;
+    left: 44.5%;
 } 
 .gallery :nth-child(11){ /*Lucas*/
     position: absolute;
-    top: 62%;
-    left: 69%;
+    top: 213%;
+    left: 27%;
 } 
 .gallery :nth-child(12){ /*Mark*/
     position: absolute;
-    top: 68%;
-    left: 47%;
+    top: 238%;
+    left: 39.3%;
 } 
 .gallery :nth-child(13){ /*Renjun*/
     position: absolute;
-    top: 42%;
-    left: 22%;
+    top: 242%;
+    left: 60%;
 } 
 .gallery :nth-child(14){ /*Jeno*/
     position: absolute;
-    top: 55%;
-    left: 17%;
+    top: 235%;
+    left: 68%;
 } 
 .gallery :nth-child(15){ /*Haechan*/
     position: absolute;
-    top: 51%;
-    left: 33%;
+    top: 231%;
+    left: 51.5%;
 } 
 .gallery :nth-child(16){ /*Jaemin*/
     position: absolute;
-    top: 56%;
-    left: 25%;
+    top: 216%;
+    left: 62%;
 } 
 .gallery :nth-child(17){ /*Chenle*/
     position: absolute;
-    top: 69%;
-    left: 20%;
+    top: 229%;
+    left: 61%;
 } 
 .gallery :nth-child(18){ /*Jisung*/
     position: absolute;
-    top: 70%;
-    left: 27.5%;
-} 
+    top: 221.5%;
+    left: 69%;
+}
+
+.gallery :nth-child(19){ /*Hendery*/
+    position: absolute;
+    top: 191.5%;
+    left: 26.5%;
+}
+.gallery :nth-child(20){ /*Xiaojun*/
+    position: absolute;
+    top: 186%;
+    left: 31.5%;
+}
+.gallery :nth-child(21){ /*Yangyang*/
+    position: absolute;
+    top: 189%;
+    left: 36.5%;
+}

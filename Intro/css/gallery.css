@@ -1,0 +1,222 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+
+/* __________________________________________________________ */
+
+
+html{
+    background-color: black;
+}
+
+.gallery {
+    /* background-image: url(../images/back.png); */
+    /* margin: 10px 50px; */
+    
+}
+
+#back img{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+@media screen and (max-width: 100vw) {
+    #back{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.gallery img{
+    width: 6vw;
+    transition: 1s;
+}
+.gallery img:hover{
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+
+.gallery #taeil{
+    position: absolute;
+    top: 40%;
+    left: 46%;
+}
+.gallery :nth-child(2){ /*Johnny*/
+    position: absolute;
+    top: 17%;
+    left: 38%;
+}
+.gallery :nth-child(3){ /*Taeyong*/
+    position: absolute;
+    top: 30%;
+    left: 55%;
+}
+.gallery :nth-child(4){ /*Yuta*/
+    position: absolute;
+    top: 11%;
+    left: 51%;
+} 
+.gallery :nth-child(5){ /*Kun*/
+    position: absolute;
+    top: 36%;
+    left: 71%;
+} 
+.gallery :nth-child(6){ /*Doyoung*/
+    position: absolute;
+    top: 47%;
+    left: 56%;
+} 
+.gallery :nth-child(7){ /*Ten*/
+    position: absolute;
+    top: 50%;
+    left: 73%;
+} 
+.gallery :nth-child(8){ /*Jaehyun*/
+    position: absolute;
+    top: 53.8%;
+    left: 43%;
+} 
+.gallery :nth-child(9){ /*Winwin*/
+    position: absolute;
+    top: 40%;
+    left: 64%;
+} 
+.gallery :nth-child(10){ /*Jungwoo*/
+    position: absolute;
+    top: 62%;
+    left: 54.5%;
+} 
+.gallery :nth-child(11){ /*Lucas*/
+    position: absolute;
+    top: 62%;
+    left: 69%;
+} 
+.gallery :nth-child(12){ /*Mark*/
+    position: absolute;
+    top: 68%;
+    left: 47%;
+} 
+.gallery :nth-child(13){ /*Renjun*/
+    position: absolute;
+    top: 42%;
+    left: 22%;
+} 
+.gallery :nth-child(14){ /*Jeno*/
+    position: absolute;
+    top: 55%;
+    left: 17%;
+} 
+.gallery :nth-child(15){ /*Haechan*/
+    position: absolute;
+    top: 51%;
+    left: 33%;
+} 
+.gallery :nth-child(16){ /*Jaemin*/
+    position: absolute;
+    top: 56%;
+    left: 25%;
+} 
+.gallery :nth-child(17){ /*Chenle*/
+    position: absolute;
+    top: 69%;
+    left: 20%;
+} 
+.gallery :nth-child(18){ /*Jisung*/
+    position: absolute;
+    top: 70%;
+    left: 27.5%;
+} 
